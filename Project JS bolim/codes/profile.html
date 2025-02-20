@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="kk">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Profile</title>
+    <link rel="stylesheet" href="profile.css" />
+  </head>
+  <body>
+    <div class="profile-card">
+      <div class="sidebar">
+        <div class="avatar">
+          <img
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRP2znm2BD8Q-Urpfkbvf-kYE7CKWHS3e545g&s"
+            alt="Профиль суреті"
+          />
+        </div>
+        <h2 id="name"></h2>
+        <p id="username"></p>
+        <p id="location"></p>
+        <p id="joined"></p>
+        <div class="buttons">
+          <button>Follow</button>
+          <button>Message</button>
+          <button>More</button>
+        </div>
+      </div>
+
+      <div class="content">
+        <h2>Жеке ақпарат</h2>
+        <p id="bio"></p>
+        <h3>Байланыс</h3>
+        <p>
+          <strong>Веб-сайт:</strong>
+          <a id="website" href="#" target="_blank"></a>
+        </p>
+        <p><strong>Email:</strong> <a id="email" href="mailto:"></a></p>
+        <p><strong>Телефон:</strong> <span id="phone"></span></p>
+        <h3>Сенің публикацияларың ⬇️</h3>
+        <button class="Create">
+          Создать
+          <img
+            src="https://cdn.pixabay.com/photo/2014/04/02/10/55/plus-304947_960_720.png"
+            alt=""
+          />
+        </button>
+        <div class="CreateCards"></div>
+      </div>
+    </div>
+
+    <script src="profile.js">
+    </script>
+  </body>
+</html>
