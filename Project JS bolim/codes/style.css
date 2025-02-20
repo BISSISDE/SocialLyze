@@ -1,0 +1,356 @@
+@import url("https://fonts.googleapis.com/css2?family=Kaisei+HarunoUmi&family=Lilita+One&family=Oleo+Script:wght@400;700&family=Orelega+One&family=Pacifico&family=Permanent+Marker&family=Rubik+Dirt&family=Rubik+Scribble&family=Rubik+Spray+Paint&family=Triodion&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+}
+.header {
+  width: 100%;
+  height: 690px;
+  background: url(https://cdn.prod.website-files.com/6615e5aa711060cd1fc76b94/6657e6d1b363c18aecae49de_callidus-home-foundation-servcices-background-2000px.webp)
+    center center/cover;
+  border-radius: 0px 0px 50px 50px;
+  overflow: hidden;
+  transition: all 1.3s;
+}
+body {
+  background: linear-gradient(
+    180deg,
+    rgb(0, 0, 0) 0%,
+    rgb(174, 174, 174) 10%,
+    rgb(255, 255, 255) 15%,
+    rgba(255, 255, 255, 1) 100%
+  );
+  backdrop-filter: blur(10px);
+  height: auto;
+  overflow-x: hidden;
+}
+.nav-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 20px;
+  z-index: 100;
+  position: absolute;
+  top: 0px;
+  width: 100%;
+  height: 60px;
+  transition: 1s all;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  color: black;
+}
+.logoimg {
+  margin-top: 10px;
+  width: 60px;
+  height: 60px;
+}
+.navLinks {
+  display: flex;
+  gap: 30px;
+  letter-spacing: 3px;
+}
+.navLinks a {
+  text-decoration: none;
+  color: black;
+  font-weight: 900;
+  transition: all 1s;
+  text-shadow: 1px 1px;
+  text-decoration: underline;
+}
+.navLinks a:hover {
+  text-shadow: 1px 1px;
+  text-decoration: none;
+}
+.Login {
+  padding: 10px 15px;
+  border-radius: 6px;
+  border: 2px solid black;
+  font-weight: 800;
+  background-color: rgb(255, 255, 255);
+  transition: 1s;
+  cursor: pointer;
+}
+.Login a {
+  text-decoration: none;
+  color: black;
+}
+.Login:hover {
+  background-color: black;
+  border: 2px solid white;
+}
+.Login a:hover {
+  color: white;
+}
+.Home {
+  width: 100%;
+}
+.AboutSocial {
+  display: flex;
+  margin-top: 220px;
+  align-items: center;
+  margin-left: 80px;
+  margin-right: 80px;
+  gap: 30px;
+  margin-bottom: 50px;
+}
+.AboutSocial h1 {
+  text-align: center;
+  color: rgb(188, 172, 121);
+  font-family: "Triodion", serif;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+.AboutSocial img {
+  width: 350px;
+  height: 300px;
+  border-radius: 120px 200px 100px 100px;
+  border: 2px black solid;
+}
+.HR1 {
+  margin-top: 80px;
+  width: 600px;
+  border: 2px rgb(255, 255, 255) solid;
+}
+.HR2 {
+  width: 600px;
+  margin-left: 915px;
+  border: 2px rgb(255, 255, 255) solid;
+}
+.title {
+  text-align: center;
+  padding-top: 80px;
+  font-family: "Rubik Dirt", serif;
+  font-size: 50px;
+}
+.AllTitle {
+  position: relative;
+}
+.AllTitle img {
+  width: 100px;
+  height: 100px;
+}
+.TopIcon {
+  position: absolute;
+  top: 50px;
+  left: 960px;
+  animation: tiktok2 1.2s infinite;
+}
+@keyframes tiktok2 {
+  0% {
+    transform: rotateX(10deg) rotateZ(6deg) scale(1);
+  }
+  50% {
+    transform: rotateX(-10deg) rotateZ(-6deg) scale(1.05);
+  }
+  100% {
+    transform: rotateX(10deg) rotateZ(6deg) scale(1);
+  }
+}
+.tikTikIcon {
+  position: absolute;
+  left: 450px;
+  top: 50px;
+  transform-style: preserve-3d;
+  animation: tiktok 1.2s infinite;
+}
+
+@keyframes tiktok {
+  0% {
+    transform: rotateX(-10deg) rotateZ(-6deg) scale(1);
+  }
+  50% {
+    transform: rotateX(10deg) rotateZ(6deg) scale(1.05);
+  }
+  100% {
+    transform: rotateX(-10deg) rotateZ(-6deg) scale(1);
+  }
+}
+
+.card {
+  display: flex;
+}
+.oneSide {
+  width: 900px;
+  margin-left: 70px;
+}
+.profi {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+.profi img {
+  width: 50px;
+  height: 50px;
+  border-radius: 999px;
+  border: 1px black solid;
+}
+.TextReels {
+  margin-top: 20px;
+  font-size: 150px;
+  margin-bottom: 30px;
+}
+.TextAnalysis {
+  text-align: center;
+  padding-top: 80px;
+  font-family: "Rubik Dirt", serif;
+  font-size: 50px;
+  margin-bottom: 80px;
+}
+.infoReels1 {
+  margin-top: 20px;
+  line-height: 30px;
+  letter-spacing: 1px;
+}
+.infoReels2 {
+  margin-bottom: 30px;
+  line-height: 30px;
+  letter-spacing: 1px;
+}
+.rating {
+  margin-bottom: 20px;
+}
+.twoSide {
+  width: 1400px;
+  position: relative;
+  height: 460px;
+  margin-top: 50px;
+}
+.VideoItles {
+  width: fit-content;
+  height: 400px;
+  border-radius: 20px;
+  display: flex;
+  position: absolute;
+  top: 5%;
+  right: 250px;
+}
+.review {
+  border: none;
+  width: 150px;
+  padding: 25px 15px;
+  gap: 10px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  background-color: rgba(189, 189, 189, 0.349);
+  backdrop-filter: blur(10px);
+  position: absolute;
+  bottom: -50px;
+  right: 100px;
+}
+.TikTokIcons img {
+  width: 50px;
+  height: 50px;
+  padding: 10px;
+}
+.TikTokIcons {
+  border: none;
+  width: 65px;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: rgba(189, 189, 189, 0.349);
+  backdrop-filter: blur(10px);
+  position: absolute;
+  top: -50px;
+  left: 350px;
+}
+.fact {
+  width: 100px;
+  height: 100px;
+  text-align: center;
+  padding: 20px;
+  border-radius: 900px;
+  background-color: rgba(189, 189, 189, 0.349);
+  backdrop-filter: blur(10px);
+  position: absolute;
+  top: 100px;
+  right: 150px;
+}
+.fact h2 {
+  margin-top: 20px;
+}
+.TikTokIcons button {
+  background: none;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+.AllCards {
+  display: flex;
+  flex-direction: column;
+  gap: 200px;
+}
+footer {
+  align-items: flex-end;
+  height: 100%;
+  margin-bottom: 10px;
+  margin-top: 50px;
+  text-align: center;
+}
+.TikTokIcons button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  transition: transform 0.3s;
+}
+
+.TikTokIcons button:hover {
+  transform: scale(1.1);
+}
+.heartIcon {
+  transition: 1s all;
+}
+.liked {
+  filter: invert(25%) sepia(100%) saturate(1500%) hue-rotate(340deg);
+}
+.saved {
+  filter: invert(83%) sepia(22%) saturate(3894%) hue-rotate(1deg)
+    brightness(106%) contrast(103%);
+}
+.basketList {
+  width: 50%;
+  background-color: rgba(0, 0, 0, 0.837);
+  height: 100%;
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 9999;
+  display: none;
+}
+.basketListInside {
+  position: sticky;
+  top: 25px;
+}
+.basketList p {
+  text-align: center;
+  color: white;
+}
+.basketList h1 {
+  text-align: center;
+  color: white;
+  font-size: 60px;
+  padding: 20px;
+  border: 2px solid white;
+  margin: 25px;
+}
+.basketList button {
+  background: none;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  position: absolute;
+  top: -15px;
+  left: 15px;
+}
+.basketList img {
+  width: 50px;
+  height: 50px;
+  transition: all 0.5s;
+}
+.basketList img:hover {
+  scale: 1.1;
+}
